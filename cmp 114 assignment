@@ -1,0 +1,12 @@
+number= input("enter the set of number")
+
+def sum(number):
+    total = 0
+    for x in number:
+        total += int(x)
+        return total
+    print(sum(number))
+
+
+
+
